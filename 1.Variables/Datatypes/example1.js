@@ -1,0 +1,38 @@
+//String
+username = "sai kiran"
+console.log(username)
+console.log(typeof(username))
+
+//Numbers
+user_rollno = 769
+console.log(user_rollno)
+console.log(typeof(user_rollno))
+
+user_salary = 10000.00
+console.log(user_salary)
+console.log(typeof(user_salary))
+
+//boolean
+user_present = false
+console.log(user_present)
+console.log(typeof(user_present))
+
+//array
+l1 = [10, 20, 30, 40, 50]
+console.log(l1)
+console.log(typeof(l1))
+
+//object 
+d1 = {'a':10, 'b':20, 'c':30, 'd':40}
+console.log(d1)
+console.log(typeof(d1))
+
+//null
+user_address = null 
+console.log(user_address)
+console.log(typeof(user_address))
+
+//undefined
+user_city = undefined
+console.log(user_city)
+console.log(typeof(user_city))
