@@ -1,3 +1,5 @@
+//Primitive Data Types
+
 //String
 username = "sai kiran"
 console.log(username)
@@ -36,3 +38,7 @@ console.log(typeof(user_address))
 user_city = undefined
 console.log(user_city)
 console.log(typeof(user_city))
+
+
+
+//Reference Data Types are Arrays , Objects , Functions
