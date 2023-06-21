@@ -12,8 +12,8 @@ console.log(l1.slice(-5, -1)) // [ 40, 50, 60, 70 ]
 
 
 
-s1 = "arman saikia"
-//    01234 56789
+s1 = "armansaikia"
+//    0123456789
 console.log(s1) // arman saikia
 //console.log(s1.slice(3,5))// an
-console.log(s1.slice(2,7))
+console.log(s1.slice(2,7))//

@@ -10,3 +10,12 @@ console.log(l1.slice(4)) //[ 50, 60, 70, 80 ]
 
 
 
+ const fruits = ['apple', 'banana', 'cherry', 'orange', 'mango'];
+ const slicedFruits = fruits.slice(1, 4); // Extracts elements from index 1 to 3 (exclusive)
+ console.log(slicedFruits); // Output: ['banana', 'cherry', 'orange']
+
+
+
+ const colors = ['red', 'green', 'blue', 'yellow'];
+const slicedColors = colors.slice(1,2); // Creates a shallow copy of the original array
+console.log(slicedColors); // Output: ['red', 'green', 'blue', 'yellow']
