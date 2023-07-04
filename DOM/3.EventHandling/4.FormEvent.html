@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Event</title>
+</head>
+<body>
+
+    <h1>Form EVENTS</h1>
+
+    <form action="">
+        <label for="FirstName">FirstName</label>
+        <input onfocus="f1()" id="id1" type="text">
+
+        <label for="LastName">LastName</label>
+        <input onfocus="f2()" id="id2" type="text">
+    </form>
+
+    <script>
+        function f1(){
+            document.getElementById("id1").style.padding="10px"; //
+        }
+
+        function f2(){
+            document.getElementById("id2").style.padding="10px";
+        }
+    </script>
+    
+</body>
+</html>

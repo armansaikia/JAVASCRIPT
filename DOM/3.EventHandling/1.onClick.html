@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onclick events</title>
+
+
+<style>
+
+button{
+
+    background-color: aquamarine;
+    padding: 10px;
+    position: relative;
+    left:45%
+    
+    
+}
+
+
+</style>
+</head>
+<body>
+
+
+    <button onclick = "f1()">function f1() single click event</button> <br><br> <!--things we see on the browser before clicking-->
+    <button onclick = "f2()">function f2() single click event</button><br><br>
+    <button ondblclick = "f3()">function f3() double click event</button> <br><br>
+    <button oncontextmenu = "f4()">function f4() right click event</button> <br><br>
+    <button onmouseenter = "f5()">function f5() on mouse enter event</button> <br><br>
+    <button onmouseout = "f6()">function f6() on mouse out event</button> <br><br>
+
+    <script>
+
+        function f1(){
+            console.log(" function f1 single click event")  // it will appear in console not in browser
+    
+        }
+    
+        
+        function f2(){
+            alert(" function f2 single click event")   //a pop up message will appear in browser when clicked
+        }         
+        
+        function f3(){
+            alert(" function f3 double click event")   //a pop up message will appear in browser when clicked
+        }  
+
+        function f4(){
+            alert(" function f4 right click event")   //a pop up message will appear in browser when clicked
+        }
+        
+        function f5(){
+            alert(" function f5 on mouseenter click event")   //a pop up message will appear in browser when mouse cursor enters
+        } 
+
+        function f6(){
+            alert(" function f6 on mouseout click event")   //a pop up message will appear in browser when mouse cursor comes out
+        } 
+    </script> 
+
+
+
+    
+</body>
+</html>

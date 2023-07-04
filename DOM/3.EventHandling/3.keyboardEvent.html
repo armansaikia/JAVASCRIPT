@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Event</title>
+
+    <style>
+        input{
+            width: 99%;
+            margin-bottom: 10px;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <h1>KEYBORAD EVENTS</h1>
+
+    <form action="">
+        <label for="First name" >First Name</label> 
+        <input onkeypress = "f1()" placeholder = " Enter your First Name" type =text><br><br>
+
+        <label for="Last name" > Last Name</label> 
+        <input onkeydown = "f2()" placeholder = " Enter your Last Name" type =text><br><br>
+
+        <label for ="Email">Email</label> 
+        <input onkeyup = "f3()" placeholder = " Enter your email here" type =text>
+
+    </form>
+
+    <script>
+    
+    function f1(){
+        alert("f1() function on key press") // on typing any key a pop up will appear 
+    }
+
+    function f2(){
+        alert("f2() function on key down") // on typing any key a pop up will appear and also when we use backspace pop up comes again
+    }
+
+    function f3(){
+        alert("f3() function on key up") //pop up comes simultaneously while typing from keyboard
+    }
+
+   
+
+    </script>
+    
+</body>
+</html>
